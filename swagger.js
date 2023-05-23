@@ -5,8 +5,7 @@ const doc = {
         title: 'SekiroAPI',
         description: 'An API for all things Sekiro.'
     }, 
-    // host: 'cse341-5zah.onrender.com',
-    host: 'localhost:5500',
+    host: 'https://sekiro-api.onrender.com',
     schemes: ['https', 'http']
 };
 

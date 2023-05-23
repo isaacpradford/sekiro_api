@@ -1,13 +1,11 @@
 {
   "name": "sekiro_api",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "swagger-autogen": "node ./swagger.js"
-
   },
   "author": "Isaac Radford",
   "license": "ISC",
@@ -15,11 +13,13 @@
     "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-router": "^0.0.1",
     "mongodb": "^5.5.0",
     "nodemon": "^2.0.22",
     "swagger-ui-express": "^4.6.3"
   },
   "devDependencies": {
     "swagger-autogen": "^2.23.1"
-  }
+  },
+  "description": ""
 }

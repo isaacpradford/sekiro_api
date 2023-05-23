@@ -5,7 +5,7 @@
     "description": "An API for all things Sekiro.",
     "version": "1.0.0"
   },
-  "host": "https://sekiro-api.onrender.com",
+  "host": "sekiro-api.onrender.com",
   "basePath": "/",
   "schemes": [
     "https",

@@ -1,0 +1,15 @@
+[
+    {
+        "_id": null,
+        "name": "Sculptor",
+        "characterType": "NPC",
+        "image": "https://static.wikia.nocookie.net/shadowsdietwice/images/5/53/Sculptor.png/revision/latest?cb=20190421145426",
+        "quotes": [
+            "So, you're awake. Looks like death is not your fate... just yet.",
+            "Your eyes... The eyes of a wolf who has failed in his duties... Or so it seems to me.",
+            "Spoken like a true shinobi. I must carve the Buddha. You do what you will."
+        ],
+        "description": "The Sculptor is the hermit who inhabits the Dilapidated Temple, where he passes his days carving Buddha Statues. He rescued Wolf after his defeat at the hand of Genichiro and gifted him a Prosthetic Arm to replace the one he lost.",
+        "location": "Dilapidated Temple"
+    }
+]

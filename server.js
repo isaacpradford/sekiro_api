@@ -1,6 +1,7 @@
 var express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
+const logger = require('./logging/logger');
 
 var app = express();
 const port = 5500;
@@ -20,4 +21,8 @@ mongodb.initializeDb((err, mongodb) => {
         app.listen(port);
         console.log(`Listening on port: ${port}`)
     }
-})
+});
+
+process.on('uncaughtException', (err, origin) => {
+    console.error(`Caught exception: ${err}\n` + `Exception origin: ${origin}`);
+});

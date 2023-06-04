@@ -7,7 +7,9 @@ const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 passport.use(new GoogleStrategy({
     clientID:     GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "http://localhost:5500/google/callback",
+    // For local testing
+    // callbackURL: "http://localhost:5500/google/callback",
+    callbackURL: "https://sekiro-api.onrender.com/google/callback",
     passReqToCallback   : true
   },
 

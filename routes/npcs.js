@@ -14,7 +14,6 @@ router.post('/',
     npcValidation,
     npcController.addNPC   
 )
-
 router.put('/:id', 
     npcValidation,
     npcController.updateNPC
@@ -22,8 +21,7 @@ router.put('/:id',
 
 // Delete NPC
 router.delete('/:id', 
-    npcController.deleteNPC )
-
-
+    npcController.deleteNPC 
+)
 
 module.exports = router;

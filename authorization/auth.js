@@ -26,3 +26,10 @@ passport.serializeUser(function(user, done) {
 passport.deserializeUser(function(user, done) {
     done(null, user);
 });
+
+// Function to check if user is logged in
+function isLoggedIn(req, res, next) {
+  req.user ? next(): res.sendStatus(401);
+}
+
+module.exports = { isLoggedIn };
